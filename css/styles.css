@@ -1235,7 +1235,7 @@ progress {
 
   .col-md-3 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 20%;
   }
 
   .col-md-4 {
@@ -6063,6 +6063,13 @@ fieldset:disabled .btn {
   color: white !important;
   width: 60% !important;
   height: 50% !important;
+}
+ @media (max-width: 576px)  {
+  .modal-center {
+    color: white !important;
+    width: 100% !important;
+    height: 50% !important;
+  }
 }
 
 .modal-content {
